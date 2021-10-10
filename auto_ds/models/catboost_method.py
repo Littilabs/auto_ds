@@ -70,7 +70,7 @@ def catboost_model(model_type, df_features,
     study = optuna.create_study(direction=optimization_direction)
     optuna.logging.disable_default_handler()
     logging.info("Initiating model training...")
-    logging.info("Go grab your coffe while model is training...")
+    logging.info("Training... in progress ...")
     study.optimize(objective, n_trials=100)
     logging.info("Fetching the best parameters...")
     trial = study.best_trial
