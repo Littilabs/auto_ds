@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 .idea/
 .circleci/
+.DS_Store/
 # C extensions
 *.so
 
