@@ -1,12 +1,14 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+
 *.py[cod]
 *$py.class
-.idea/
+
 # system files
 .circleci/
 .DS_Store/
 examples/catboost_info/
+.idea/
 
 # C extensions
 *.so
