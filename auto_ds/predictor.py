@@ -24,6 +24,7 @@ class AutoDSPredictor(BaseEstimator):
         self.metric = self.autods_object.metric
         self.model_type = self.autods_object.model_type
 
+
         self.id_cols = self.autods_object.id_cols
         self.obj_cols = self.autods_object.obj_cols
         self.excess_missing_cols = self.autods_object.excess_missing_cols
@@ -31,7 +32,7 @@ class AutoDSPredictor(BaseEstimator):
 
         # self.text_fields = self.autods_object.text_fields
         #
-        # self.ext = self.autods_object.ext
+        self.ext = self.autods_object.ext
 
         self.categorical_candidates = self.autods_object.categorical_candidates
         self.categorical_index = self.autods_object.categorical_index
