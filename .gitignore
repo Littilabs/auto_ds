@@ -6,7 +6,7 @@ __pycache__/
 
 # system files
 .circleci/
-.DS_Store/
+.DS_Store
 examples/catboost_info/
 .idea/
 
