@@ -2,6 +2,7 @@
 __pycache__/
 auto_ds/__pycache_/
 auto_ds/models/__pycache__/
+*/*/*/__pycache__/
 *.py[cod]
 *$py.class
 
